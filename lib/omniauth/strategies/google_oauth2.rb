@@ -7,10 +7,8 @@ module OmniAuth
       DEFAULT_SCOPE = "userinfo.email,userinfo.profile"
 
       option :strategy_class, GoogleOauth2
-
       option :name, 'google'
-      # option :name, 'google_oauth2'
-      
+
       option :skip_friends, true
 
       option :authorize_options, [:access_type, :hd, :login_hint, :prompt, :scope, :state, :redirect_uri]
