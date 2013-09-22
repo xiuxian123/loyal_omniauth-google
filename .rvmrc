@@ -1,2 +1,0 @@
-# rvm gemset create ruby800
-rvm use ruby-2.0.0-rc1@ruby800
