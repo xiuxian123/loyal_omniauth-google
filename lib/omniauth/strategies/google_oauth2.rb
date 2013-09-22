@@ -6,7 +6,8 @@ module OmniAuth
       BASE_SCOPE_URL = "https://www.googleapis.com/auth/"
       DEFAULT_SCOPE = "userinfo.email,userinfo.profile"
 
-      option :name, 'google_oauth2'
+      option :name, 'google'
+      # option :name, 'google_oauth2'
       
       option :skip_friends, true
 
